@@ -1,0 +1,45 @@
+.todo_row_top{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+    border-bottom: 0.5px solid #30303041 ;
+    justify-content: space-between;
+}
+
+.todo_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.todo_div{
+    height: 40px;
+    width: 80%;
+    border: 5px solid;
+    color: black;
+    border-bottom: 1px solid #000;
+}
+
+.todo_title{
+    text-align: center;
+    width: fit-content;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.cancel_btn{
+    right: 0px;
+}
+
+.light_strikethrough{
+    text-decoration: line-through;
+    color: #000;
+}
+
+.dark_strikethrough{
+    text-decoration: line-through;
+    color: #fff;
+}
+

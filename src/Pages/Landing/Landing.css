@@ -1,0 +1,211 @@
+.Page_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  margin: 0px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top_div {
+  height: 40vh;
+  width: 100%;
+  /* backzround-color: red; */
+  color: #fff;
+  background-image: url("../../Images/web_design_image1.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-position: top; */
+}
+
+.bottom_div_light {
+  width: 100%;
+  height: 60vh;
+  background-color: #ffffff;
+}
+
+.bottom_div_dark {
+  width: 100%;
+  height: 60vh;
+  background-color: rgba(0, 0, 128, 0.746);
+}
+
+.bottom_div_col {
+  height: auto;
+  width: 35%;
+  left: 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-top: 23px;
+  border-radius: 5px;
+  color: black;
+  z-index: 1;
+  box-shadow: 2px 1px 19px 3px rgba(0, 0, 0, 0.698);
+  -webkit-box-shadow: 2px 1px 19px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 2px 1px 19px 3px rgba(0, 0, 0, 0.15);
+}
+
+.dark_background {
+  background-color: rgba(0, 0, 128, 0.746) !important;
+}
+.dark_boxshadow {
+  box-shadow: 2px 1px 19px 3px rgba(255, 255, 255, 0.698);
+  -webkit-box-shadow: 2px 1px 19px 3px rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: 2px 1px 19px 3px rgba(255, 255, 255, 0.15);
+}
+.dark_text {
+  color: #fff !important;
+}
+
+.text_div {
+  height: 60px;
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  z-index: 99999;
+  letter-spacing: 15px;
+  font-size: 22px;
+  margin-top: -15%;
+  color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input_div {
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  width: 35%;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.input_radio {
+  height: 30px;
+  width: 50px;
+  border-radius: 50% !important;
+  cursor: pointer;
+}
+
+.input_text {
+  border: 0px;
+  outline: 0px;
+}
+
+.input_text::placeholder {
+  font-size: 20px;
+}
+
+.dark_placeholder::placeholder {
+  color: rgba(255, 255, 255, 0.671);
+}
+
+.input_text::before {
+  border: 0px;
+}
+
+.links {
+  cursor: pointer;
+}
+
+.links:hover {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    right: 0px;
+    width: 100%;
+  }
+  .top_div {
+    height: 40vh;
+    width: auto;
+    /* backzround-color: red; */
+    color: #fff;
+    background-image: url("../../Images/web_design_image1.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-position: top; */
+  }
+
+  .text_div {
+    height: 60px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    z-index: 1;
+    letter-spacing: 15px;
+    font-size: 22px;
+    margin-top: -45%;
+    right:0px;
+    color: #fff;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .input_div {
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin: 20px;
+    margin-top: 15px;
+  }
+  .bottom_div_col {
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-top: 23px;
+    border-radius: 5px;
+    margin: 20px;
+    color: black;
+    z-index: 1;
+    box-shadow: 2px 1px 19px 3px rgba(0, 0, 0, 0.698);
+    -webkit-box-shadow: 2px 1px 19px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 2px 1px 19px 3px rgba(0, 0, 0, 0.15);
+  }
+
+  .bottom_div_light {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    background-color: #ffffff;
+  }
+
+  .bottom_div_dark {
+    width: 100vw;
+    height: 100vh;
+    margin-right: -100px;
+    background-color: rgba(0, 0, 128, 0.746);
+    overflow-wrap: normal;
+  }
+
+}
